@@ -1,0 +1,15 @@
+﻿@{
+    ViewData["Title"] = "User Task List";
+}
+
+<h2>My Task List</h2>
+
+<p>Only normal users can see this page.</p>
+
+<div class="alert alert-success">
+    Here user can see their own tasks.
+</div>
+
+<a asp-controller="User" asp-action="EditTask" class="btn btn-warning">
+    Edit Task
+</a>
